@@ -103,7 +103,7 @@ google_api_key = None
 
 def display_logo():
     """Displays the logo and title."""
-    logo_url = "https://raw.githubusercontent.com/RahulGandhi128/LODR_knowledge/adfb73b9dc65553d5ffe7827f75d43cd0636ca0c/image001.png"
+    logo_url = "https://raw.githubusercontent.com/RahulGandhi128/LODR_know/main/image001.png"
 
     col1, col2 = st.columns([1, 4])
     with col1:
@@ -361,8 +361,8 @@ def load_vector_store_from_github():
 
 
     # --- IMPORTANT: Update these URLs to your actual GitHub raw file paths ---
-    faiss_url = "https://raw.githubusercontent.com/RahulGandhi128/LODR_knowledge/main/faiss_index_LODR/index.faiss"
-    pkl_url = "https://raw.githubusercontent.com/RahulGandhi128/LODR_knowledge/main/faiss_index_LODR/index.pkl"
+    faiss_url = "https://raw.githubusercontent.com/RahulGandhi128/LODR_know/main/faiss_index_LODR/index.faiss"
+    pkl_url = "https://raw.githubusercontent.com/RahulGandhi128/LODR_know/main/faiss_index_LODR/index.pkl"
     # --- ---
 
     vector_store = None
